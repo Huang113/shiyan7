@@ -33,7 +33,7 @@ public class MainActivity1 extends AppCompatActivity {
                 } else {
                     Toast.makeText(this, "权限被拒绝，无法显示通讯录", Toast.LENGTH_SHORT).show();
                 }
-                break;
+                break; 
             default:
         }
     }
