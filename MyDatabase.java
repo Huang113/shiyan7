@@ -21,7 +21,7 @@ public class MyDatabase extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        db.execSQL(CREATE_CONTACTS);
+        db.execSQL(CREATE_CONTACTS); 
         db.execSQL("insert into contacts (id,name,phone,sex) values(?,?,?,?)",
                 new String[] { "1", "李富强 ", "13567652311", "男"});
         db.execSQL("insert into contacts (id,name,phone,sex) values(?,?,?,?)",
