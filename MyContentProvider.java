@@ -8,7 +8,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.net.Uri;
 
 public class MyContentProvider extends ContentProvider {
-    // 01是自定义代码，用于清楚表达我们想要访问访问数据库的哪个表或者哪一行数据
+    // 0、1是自定义代码，用于清楚表达我们想要访问访问数据库的哪个表或者哪一行数据
     public static final int CONTACTS_DIR = 0;
     public static final int CONTACTS_ITEM = 1;
     // 和清单文件里provider的authority属性一致
